@@ -1,0 +1,14 @@
+#questions {
+  margin-bottom: 6em;
+  max-width: 700px;
+}
+
+article {
+  margin: 0;
+  padding: 2em 1em;
+  border-top: 1px solid #eee;
+}
+
+article:target {
+  background: #eee;
+}

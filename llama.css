@@ -1,0 +1,97 @@
+* {margin: 0; padding: 0; border: 0;}
+
+body{font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333;
+	background-image: url(im/linedpaper.png);}
+h1 { font-size: 3em;}
+h3 {font-size: 1.5em;}
+p {padding: 5px 0;font-size: 1em;}
+.round-border {border-radius: 10px;}
+
+
+/*a:link {text-decoration: underline; color: #333; font-size: 100%;}
+a:visited {text-decoration: underline; color:#333; font-size: 100%; }
+a:hover {text-decoration: underline; color:#333; font-size: 100%;}
+a:active {text-decoration: underline; color:#333; font-size: 100%;}
+*/
+
+
+ul {list-style: none inside;}
+.nav-links {padding-top: 5px; clear: both;}
+.nav-links-list {display: inline; font-style: italic; color: #fff;}
+
+.container {margin: 20px auto; width: 1000px; padding: 5px; position: relative;}
+
+header{padding: 20px 5px; margin-bottom: 10px; background-color: #be008a; border: 2px solid #7c005a;
+  box-shadow: 10px 10px 5px #888888; }
+.name {color: #fff; text-shadow: 2px 2px #333;}
+
+
+/* alerts*/
+button {border-radius: 10px; box-shadow: 5px 5px #333;  }
+.alert-list {margin: 10px 5px;}
+.buttons {display: inline; margin: 5px;}
+.large-button {height: 40px; width: auto; padding: 5px 10px; font-size: 1em; font-weight: bold;}
+.small-button {height: 25px; width: auto; padding: 5px; font-size: .75em; font-weight: bold;}
+
+
+.warning {background-color: red; }
+.neutral {background-color: yellow;}
+.excellent {background-color: green;}
+
+/*tooltips*/
+.crop {border: 1px solid #333;}
+
+.tooltips {;}
+
+.tooltips:before,
+.tooltips:after {
+  content: "";
+  display: table;
+}
+
+.tooltops:after {
+  clear: both;
+}
+
+.tooltip {margin: 5px;
+	border-bottom: 1px dotted #000000;
+  color: #000000; 
+  text-decoration: none;
+  position: relative;
+	width: 152px;}
+ 
+ .tooltip:hover span {display: block;
+  position: absolute;
+  left: 175px;
+  top: -100px;
+  z-index: 99;
+  margin-left: 0; 
+  padding: 10px; 
+  background: #333;
+  color: #fff;}
+.popup {display: none;}
+
+.caption {margin: 5px 0 0 5px;}
+
+
+ /*Journal*/
+a[href^='https:']:after {
+  content: url(im/reward-lock.png);
+  padding-left: 4px;}
+
+a[target] {
+  padding-right: 15px;
+  background: transparent url(im/sprite.png) no-repeat;
+  background-position: right -149px;
+}
+
+.blog {margin: 15px 50px; background-color: #fff; padding: 5px; 
+  border: 1px solid #7c005a; box-shadow: 10px 10px 5px #888888;}
+.blog-post {margin: 0 20px;}
+.blog p {text-indent: 15px;}
+.blog p:first-of-type {text-indent: 0;}
+.blogdate {font-style: italic; font-size: .75em;}
+
+
+
+

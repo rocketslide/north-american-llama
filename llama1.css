@@ -1,0 +1,37 @@
+* {margin: 0; padding: 0; border: 0;}
+
+body{font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333;
+	background-image: url(im/grey_wash_wall.png);}
+h1 { font-size: 3em;}
+h3 {font-size: 1.5em;}
+p {padding: 5px 0;}
+a:link {text-decoration: underline; color: #333; font-size: 100%;}
+a:visited {text-decoration: underline; color:#333; font-size: 100%; }
+a:hover {text-decoration: underline; color:#333; font-size: 100%;}
+a:active {text-decoration: underline; color:#333; font-size: 100%;}
+ul {list-style: none inside;}
+.nav-links {padding-top: 5px; clear: both;}
+.nav-links-list {display: inline; font-style: italic;}
+.headline {font-weight: bold;}
+
+.round-border {border-radius: 10px;}
+
+.container {margin: 20px auto; width: 960px; 
+border: 1px solid #888;
+position: relative;
+}
+
+.intro {width: 620px; float: right;  border: 1px solid green; padding: 5px; margin: 5px;}
+
+.pic {width: 300px; padding: 5px; margin: 5px; border: 1px solid red;}
+
+
+
+#content {margin-top: 15px;}
+
+
+#contact {float: right;width: 385px; clear: both; }
+#info {margin-right: 410px; padding: 0 20px 0 0; border-right: 1px solid #666; }
+#info p {text-align: justify; padding-top: 5px;}
+
+#contact ul {list-style: none inside;}
